@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Coffee Shop - ร้านกาแฟคุณภาพ เครื่องดื่มหอมกรุ่น และขนมหวานแสนอร่อย">
+    <meta name="keywords" content="กาแฟ, coffee, เครื่องดื่ม, ขนมหวาน, คาเฟ่">
+    <meta name="author" content="Student ID: 6609652349">
+    <title>My Shop</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#about">เรื่องราวของเรา</a></li>
+                <li><a href="#products">เมนู</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Coffee Bean Café</h1>
+            <h2>คาเฟ่เมล็ดกาแฟ</h2>
+            <p class="tagline">ที่ที่รสชาติและความอบอุ่นพบกัน</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Video Introduction Section -->
+        <section id="video-intro" class="video-section">
+            <h2>รู้จักร้าน Coffee Bean Café</h2>
+            <div class="video-container">
+                <video 
+                    controls 
+                    width="800" 
+                    height="450"
+                    poster="resources/thumbnail.jpg"
+                    preload="metadata">
+                    <source src="resources/know-my-shop.mp4"
+                    <p>เบราว์เซอร์ของคุณไม่รองรับการแสดงวิดีโอ HTML5 
+                    <a> href="resources/know-my-shop.mp4"></a></p>
+                </video>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>เรื่องราวของ Coffee Bean Café</h2>
+            <div class="about-content">
+                <figure>
+                    <img src="resources/cafe-atmosphere.jpg" 
+                         alt="ภาพบรรยากาศภายในร้าน Coffee Bean Café ที่อบอุ่นและน่าอยู่"
+                         width="400" 
+                         height="300">
+                    <figcaption>บรรยากาศอบอุ่นภายในร้าน
+                </figure>
+                <div class="story-text">
+                    <p>Coffee Bean Café เกิดขึ้นจากความหลงใหลในกาแฟคุณภาพและความต้องการที่จะสร้างพื้นที่แห่งความสุขให้กับทุกคน</p>
+                    <p>ด้วยประสบการณ์การทำงานในวงการกาแฟมากกว่า 5 ปี เราเข้าใจถึงความสำคัญของการคัดสรรเมล็ดกาแฟคุณภาพ การคั่วที่ลงตัว และการชงที่มีศิลปะ</p>
+                    <blockquote>
+                        <p>"เราเชื่อว่าแต่ละแก้วกาแฟมีเรื่องราวที่จะเล่า และเราอยากเป็นส่วนหนึ่งในเรื่องราวของคุณ"</p>
+                        <cite>- ผู้ก่อตั้ง Coffee Bean Café</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
+            <h2>เมนูแนะนำ</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <img src="resources/americano.jpg" 
+                         alt="กาแฟอเมริกาโน่ เข้มข้น หอมกรุ่น"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>อเมริกาโน่</h3>
+                        <p class="description">กาแฟเอสเปรสโซ่เข้มข้นผสมน้ำร้อน รสชาติกลมกล่อม เหมาะสำหรับผู้ที่ชอบรสกาแฟแท้จริง</p>
+                        <p class="price">฿65</p>
+                        <small class="image-credit">ภาพจาก: https://hellomanly.co.nz/product/americano//</small>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <img src="resources/cappuccino.jpg" 
+                         alt="คาปูชิโน่ นมฟองนุ่ม ลาเต้อาร์ต สวยงาม"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>คาปูชิโน่</h3>
+                        <p class="description">เอสเปรสโซ่ นมสตีม และฟองนมนุ่มในสัดส่วนที่ลงตัว พร้อมลาเต้อาร์ตสวยงาม</p>
+                        <p class="price">฿85</p>
+                        <small class="image-credit">ภาพจาก: https://th.wikipedia.org/wiki/กัปปุชชีโน</small>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <img src="resources/mocha.jpg" 
+                         alt="มอคค่า กาแฟผสมช็อกโกแลต หวานมัน เข้มข้น"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>มอคค่า</h3>
+                        <p class="description">การผสมผสานระหว่างกาแฟเอสเปรสโซ่และช็อกโกแลตเข้มข้น หวานมันในรสชาติที่ลงตัว</p>
+                        <p class="price">฿95</p>
+                        <small class="image-credit">ภาพจาก: www.espressomykitchen.com/mexican-mocha/</small>
+                    </div>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card">
+                    <img src="resources/latte.jpg" 
+                         alt="ลาเต้ กาแฟนมเข้มข้น หอมกรุ่น นุ่มลิ้น"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>ลาเต้</h3>
+                        <p class="description">เอสเปรสโซ่ผสมนมสตีมในสัดส่วนที่เหมาะสม รสชาตินุ่มนวล เข้มข้นพอดี</p>
+                        <p class="price">฿80</p>
+                        <small class="image-credit">ภาพจาก: www.arlafoods.co.uk/recipes/chocolate-latte/</small>
+                    </div>
+                </article>
+
+                <!-- Product 5 -->
+                <article class="product-card">
+                    <img src="resources/croissant.jpg" 
+                         alt="ครัวซองต์ เนย หอม กรอบ นุ่ม"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>ครัวซองต์เนย</h3>
+                        <p class="description">ครัวซองต์เนยสดหอมกรุ่น ชั้นๆ กรอบนอกนุ่มใน เข้ากันดีกับกาแฟทุกประเภท</p>
+                        <p class="price">฿45</p>
+                        <small class="image-credit">ภาพจาก: www.lalevain.com/product/french-butter-croissant</small>
+                    </div>
+                </article>
+
+                <!-- Product 6 -->
+                <article class="product-card">
+                    <img src="resources/cheesecake.jpg" 
+                         alt="ชีสเค้ก นุ่ม หวาน มัน อร่อย"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>ชีสเค้กบลูเบอร์รี่</h3>
+                        <p class="description">ชีสเค้กนุ่มละมุนเนื้อแน่น ท็อปปิ้งบลูเบอร์รี่สด หวานกำลังดี</p>
+                        <p class="price">฿120</p>
+                        <span class="badge">แนะนำ</span>
+                        <small class="image-credit">ภาพจาก: www.blessthismessplease.com/blueberry-cheesecake/</small>
+                    </div>
+                </article>
+                <!-- Product 7 -->
+                <article class="product-card">
+                    <img src="resources/redvelvet.jpg" 
+                         alt="เรดเวลเวต เค้กสีแดง หอม หวาน ครีมเน้นๆ"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>เค้กเรดเวลเวต</h3>
+                        <p class="description">เค้กเรดเวลเวต นุ่มละมุนลิ้น ปาดด้วยครีมหอมๆ</p>
+                        <p class="price">฿80</p>
+                        <small class="image-credit">ภาพจาก: www.preciouscore.com/red-velvet-cake/</small>
+                    </div>
+                </article>
+                <!-- Product 8 -->
+                <article class="product-card">
+                    <img src="resources/banoffee.jpg" 
+                         alt="บานอฟฟี่"
+                         width="250" 
+                         height="250">
+                    <div class="product-info">
+                        <h3>บาน็อฟฟี่</h3>
+                        <p class="description">บาน็อฟฟี่ หอมหวานอบอวนไปด้วยกลิ่นของกล้วย พร้อมความหวานจากท็อฟฟี่ เนื้อครีมด้านบนและพายด้านล่างที่ผสานกันอย่างลงตัว </p>
+                        <p class="price">฿80</p>
+                        <small class="image-credit">ภาพจาก: www.dinnerthendessert.com/banoffee-pie/</small>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Special Offers Section -->
+        <aside class="offers-section">
+            <h2>โปรโมชั่นพิเศษ</h2>
+            <div class="offer-cards">
+                <div class="offer-card">
+                    <h3>Happy Hour</h3>
+                    <center>ซื้อเครื่องดื่ม 2 แก้ว ลด 10%</center>
+                    <time datetime="14:00">14:00-16:00 น.</time>
+                </div>
+                <div class="offer-card">
+                    <h3>Student Discount</h3>
+                    <center>นักเรียน นักศึกษา ลด 15%</center>
+                    <center><small>*แสดงบัตรนักเรียน/นักศึกษา</small></center>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>ติดต่อเรา</h3>
+                <address>
+                    <p>📍 99 หมู่ 18, ถ.พหลโยธิน, ต.คลองหนึ่ง, อ.คลองหลวง, จ.ปทุมธานี, 12120</p>
+                    <p>📞 โทร: <a href="tel:+66812345678">081-234-5678</a></p>
+                    <p>✉️ อีเมล: <a href="mailto:info@mycoffeeshop.com">info@mycoffeeshop.com</a></p>
+                </address>
+            </div>
+            
+            <div class="opening-hours">
+                <h3>เวลาทำการ</h3>
+                <dl>
+                    <dt>จันทร์ - ศุกร์</dt>
+                    <dd>07:00 - 20:00 น.</dd>
+                    <dt>เสาร์ - อาทิตย์</dt>
+                    <dd>08:00 - 21:00 น.</dd>
+                </dl>
+            </div>
+
+            <div class="social-media">
+                <h3>ติดตามเรา</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘 Facebook</a>
+                    <a href="#" aria-label="Instagram">📷 Instagram</a>
+                    <a href="#" aria-label="Line">💚 Line</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Coffee Bean Café. สงวนลิขสิทธิ์ทุกการใช้งาน</p>
+            <p><small>พัฒนาโดย นักศึกษารหัส 6609652349 | CS100 Basic Web Development</small></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" onclick="scrollToTop()" aria-label="กลับไปด้านบน">⬆️</button>
+
+    <script>
+        // Simple JavaScript for back to top functionality
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Show/hide back to top button
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
